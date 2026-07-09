@@ -1,16 +1,37 @@
+nav {
+    background-color: rgb(12, 94, 94);
+    padding: 10px;
+}
+
+h1 {
+    color: rgb(5, 1, 1);
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
 main {
-    width: 840px;
+    width: 100%;
+    max-width: 840px;
 }
 
 main img {
     width: 150px;
     height: auto;
+    border: 2px solid gray;
+    /* Fixed */
+    padding: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* Fixed */
 }
 
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0, 0, 0 / 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
