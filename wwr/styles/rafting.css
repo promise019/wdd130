@@ -355,14 +355,14 @@ footer {
 
 .home-grid,
 .trips-grid {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   margin: 32px 0;
 }
 
 .grid-card,
 .trip-card {
-  flex: 1;
   background-color: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 4px;
